@@ -1,0 +1,1 @@
+{"level":"INFO","time":"2022-12-03T16:13:21.944+0800","caller":"D:/go/src/testing/testing.go:1259","msg":"","ts":"2022-12-03T16:13:21+08:00","caller":"logs/zaplog_test.go:22","module":"data.af_affiliate","msg":"aa"}
