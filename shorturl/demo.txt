@@ -1,0 +1,10 @@
+func main() {
+
+	cookie := "_ga=GA1.2.536190013.1675491913; _gid=GA1.2.155247705.1675491914; __gpi=UID=00000bb5e89ddaaa:T=1675491915:RT=1675491915:S=ALNI_MYjwGoz9rz6RJg5hPUtlV1bNkyOWA; __gads=ID=60faac3f1f9034f9-22c3c59c84d9005e:T=1675491915:S=ALNI_MaBvE1_6MXf6G2HAX_X5f13bTMuoA; login_sid_t=9db078e33d4b9e9b85f0e4626134f18d; cross_origin_proto=SSL; _s_tentry=www.baidu.com; UOR=www.baidu.com,www.weibo.com,www.baidu.com; Apache=3996185620809.9756.1675491925359; SINAGLOBAL=3996185620809.9756.1675491925359; ULV=1675491925361:1:1:1:3996185620809.9756.1675491925359:; PC_TOKEN=f53515df2c; _gat=1; WBStorage=4d96c54e|undefined; SUB=_2A25O2Y3gDeRhGeBG41oX9SzEwzqIHXVtrvgorDV8PUNbmtAfLWnfkW9NQf2IpkUF1WER9qluGMh4sS7JhlPXzko4; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9W5Lf7IDOWjIRbO8f--7v3L75JpX5KzhUgL.FoqR1hncSKzR1hq2dJLoIpUFds8_9CH8SCHWeb-4eEH8SCHFxb-4S7tt; ALF=1707028782; SSOLoginState=1675492784; XSRF-TOKEN=8GC_KukzfWMn3xDtIuEFi8wq; WBPSESS=NLI2xbTfxwSqrYCNelFDJm_PTAjZwG6hfQE6DHRXZQ0nT8AX_kaAaRLuAZKvLttlUXB_Fc-iY_h8RYdVriTuflG48DOGX2KGdtQaaKxr9FjyCKvSC36Kjdg96mzTE6cp6CWANAt9o2tsSlMOQtERiA=="
+
+	tcnUrl := NewTcnUrl(cookie)
+	//text := "http://tools.jiningrenjia.com/"
+	text := "https://www.tiktok.com/@raisa6690"
+	ss := tcnUrl.sendMsg(text)
+	fmt.Println(ss)
+}
