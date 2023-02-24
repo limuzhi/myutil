@@ -1,0 +1,7 @@
+redis 可视化  https://cloud.tencent.com/developer/article/2166043?from=15425&areaSource=102001.1&traceId=kRk0-q4ENjk9BBDXP6sgL
+
+https://github.com/qishibo/AnotherRedisDesktopManager/releases
+
+
+ssh 连接可视化 https://tabby.sh/
+
