@@ -1,0 +1,3 @@
+学习网址：https://github.com/deepch
+
+流媒体链接播放工具：http://www.videolan.org/  vlc
