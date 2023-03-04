@@ -1,0 +1,9 @@
+https://github.com/B1gM8c/X-Bogus
+
+
+https://github.com/5ime/video_spider#faq
+
+
+https://github.com/wujunwei928/parse-video
+
+https://github.com/5ime/video_spider/blob/master/src/video_spider.php
