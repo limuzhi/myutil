@@ -3,6 +3,26 @@
 2、https://github.com/lyouthzzz/ws-gatewa
 
 
+3、https://github.com/tx7do/kratos-blog
+
+
+https://blog.csdn.net/freewebsys/article/details/109504012
+
+4、https://pandaychen.github.io/2020/10/10/KRATOS-OPENTRACING-ANALYSIS-1/
+
+5、https://zhuanlan.zhihu.com/p/572148281
+
+物联网
+https://developer.aliyun.com/article/1150293
+
+6、https://github.com/go-kratos/examples/tree/main/realtimemap
+7、https://github.com/tx7do/kratos-realtimemap?spm=a2c6h.12873639.article-detail.17.1f6b2fcdXiXwLn
+
+
+提升http 性能
+https://zhuanlan.zhihu.com/p/588670733
+
+
 提升 json 使用
 # easyjson
 easyjson:
