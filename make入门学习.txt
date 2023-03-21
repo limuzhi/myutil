@@ -1,5 +1,0 @@
-入门:  https://zhuanlan.zhihu.com/p/350297509
-
-https://www.liwenzhou.com/posts/Go/makefile/
-
-https://mp.weixin.qq.com/s?__biz=MzI2MzEwNTY3OQ==&mid=2648980663&idx=1&sn=b87d11a2f70ab762ce9682e8e6bc247e&chksm=f2506157c527e8415261712958c31bd21b1d55ce8dcd6f004ba85d16aabc4c198b2415b25232&scene=27
