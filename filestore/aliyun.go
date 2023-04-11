@@ -72,6 +72,7 @@ func (o *AliyunOssOption) PutBase64(key string, r []byte, contentType string) er
 
 func (o *AliyunOssOption) PutFile(key string, localFile string, contentType string) error {
 	key = NormalizeKey(key)
+
 	err := o.bucket.PutObjectFromFile(key, localFile, oss.ContentType(contentType))
 	if err != nil {
 		return err

@@ -13,10 +13,10 @@ import (
 	"io/ioutil"
 	"testing"
 )
- 
+
 func TestOss_Put(t *testing.T) {
-	data, _ := ioutil.ReadFile("../tests/accounts.txt")
-	err := disk.Put("test_data/accounts.txt", bytes.NewReader(data), int64(len(data)), "text/plain")
+	data, _ := ioutil.ReadFile("ceshi001.txt")
+	err := disk.Put("test_data/ceshi001.txt", bytes.NewReader(data), int64(len(data)), "text/plain")
 	if err != nil {
 		t.Error(err.Error())
 		return
@@ -25,7 +25,7 @@ func TestOss_Put(t *testing.T) {
 }
 
 func TestOss_PutFile(t *testing.T) {
-	err := disk.PutFile("test_data/accounts2.txt", "../tests/accounts.txt", "text/plain")
+	err := aliOss.PutFile("test_data/ceshi002.txt", "ceshi001.txt", "text/plain")
 	if err != nil {
 		t.Error(err.Error())
 		return
@@ -100,7 +100,7 @@ func TestOss_Delete(t *testing.T) {
 }
 
 func TestOss_Url(t *testing.T) {
-	url := disk.Url("test_data/accounts.txt")
+	url := disk.Url("common/20230315/logo-reg.png")
 	t.Log("url : " + url)
 	t.Log("success")
 }
