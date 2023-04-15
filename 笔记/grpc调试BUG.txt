@@ -1,0 +1,17 @@
+https://zhuanlan.zhihu.com/p/424825387
+
+
+参靠：https://www.cnblogs.com/tomtellyou/p/14763065.html
+
+参照：
+https://github.com/fullstorydev/grpcui
+
+
+go install github.com/fullstorydev/grpcui/cmd/grpcui@latest
+
+
+grpcui -help
+
+
+$ grpcui -plaintext localhost:12345
+gRPC Web UI available at http://127.0.0.1:60551/...
