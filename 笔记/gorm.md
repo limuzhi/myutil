@@ -68,3 +68,7 @@ func QueryUser(){
          return db.Order("Name asc")
      })
     }).Find(&userData)
+    
+    
+  sql转gorm定义
+  https://jasper-puma-741.notion.site/go-016a2187ef1847feaef8004d63aa9ae0
